@@ -1,0 +1,50 @@
+body {
+    background-color: lightblue;
+}
+
+.header {
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+}
+
+.navbar {
+    background-color: black;
+    overflow: hidden;
+    margin: 0;
+
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+#selfie {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#aboutMe {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 200%;
+}
+
+#aboutMeInfo {
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 150%;
+}
