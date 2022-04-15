@@ -1,15 +1,22 @@
+:root {
+    --background: #87CEFA;
+    --darkcolor: #030303;
+    --linkhover: #D00A0A;
+    --linkColor: #1008F6;
+}
+
 body {
-    background-color: lightblue;
+    background-color: var(--background);
 }
 
 .header {
-    background-color: lightblue;
-    color: black;
+    background-color: var(--background);
+    color: var(--darkcolor);
     text-align: center;
 }
 
 .navbar {
-    background-color: black;
+    background-color: var(--darkcolor);
     overflow: hidden;
     margin: 0;
 
@@ -25,7 +32,7 @@ body {
 
 .navbar a:hover {
     background-color: lightgrey;
-    color: black;
+    color: var(--darkcolor);
 }
 
 #selfie {
@@ -79,7 +86,6 @@ h3 {
 }
 
 .evertonLogo {
-    padding-left: 15%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -92,11 +98,10 @@ h4 {
     padding-left: 2%;
 }
 
-#marketTalkLogo {
-    /* width: 80%;
-    height: 80%; */
+.marketTalkLogo {
     margin-left: auto;
     margin-right: auto;
+    
     
 }
 
@@ -104,13 +109,38 @@ h5 {
     font-size: larger;
 }
 
+.contactSection {
+    text-align: center;
+    font-size: 20px;
+}
+
+#githubLink {
+    color: var(--linkColor);
+    padding-right: 5px;
+}
+
+#emailLink {
+    color: var(--linkColor);
+    padding-left: 5px;
+}
+
+#githubLink:hover {
+    color: var(--linkhover);
+}
+
+#emailLink:hover {
+    color: var(--linkhover);
+}
+
+h6 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
     .main, body {
-      width: 100%;
-      /* flex-direction: column; */
+      flex: 100%;
+      flex-direction: column;
     }
-    .evertonLogo {
-        order: 1;
-    }
+    
   }
