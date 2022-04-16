@@ -39,7 +39,7 @@ Screenshot 2
 
 ## Credits:
 
-- I would like to thank my tutor anbd BCS for helping me out on some CSS details.
+- I would like to thank my tutor and BCS for helping me out on some CSS details.
 
 <br>
 
